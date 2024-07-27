@@ -1,0 +1,161 @@
+/* #region General style */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: black;
+  background-color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* #endregion General style */
+
+/* #region Header style */
+
+.header {
+}
+
+.nav {
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-span {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.nav-menu {
+}
+
+.nav-menu-item {
+}
+
+.nav-menu-item-link {
+  color: #2e2f42;
+}
+
+.nav-menu-item-link:hover,
+.nav-menu-item-link:focus {
+  color: #404bbf;
+}
+
+.address {
+}
+
+.address-menu {
+}
+
+.address-menu-item {
+}
+
+.address-mail-link {
+  font-weight: 400;
+  color: #434455;
+}
+
+.address-mail-link:hover,
+.address-mail-link:focus {
+  color: #404bbf;
+}
+
+.address-tel-link {
+  font-weight: 400;
+  color: #434455;
+}
+
+.address-tel-link:hover,
+.address-tel-link:focus {
+  color: #404bbf;
+}
+
+/* #endregion Header style */
+
+/* #region Hero style */
+.hero {
+  width: 1440px;
+  height: 600px;
+  background-color: #2e2f42;
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: #fff;
+}
+.order-btn {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.04em;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: #4d5ae5;
+}
+
+.order-btn:hover,
+.order-btn:focus {
+  background-color: #404bbf;
+}
+/* #endregion Hero style */
+
+/* #region Advantages style */
+.advantages {
+}
+.advantages-title {
+}
+.advantages-menu {
+}
+.advantages-menu-item {
+}
+.advantages-category {
+}
+.advantages-text {
+}
+/* #endregion Advantages style */
+
+/* #region Our team style */
+.team {
+}
+.team-title {
+}
+.team-menu {
+}
+.team-menu-item {
+}
+.team-img {
+}
+.team-name {
+}
+.team-text {
+}
+/* #endregion Our team style */
