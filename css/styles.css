@@ -34,7 +34,7 @@ h3 {
   color: #2e2f42;
   font-weight: 500;
   letter-spacing: 0.02em;
-  line-height: 1.11;
+  line-height: 1.2;
   text-align: center;
   text-transform: capitalize;
 }
@@ -101,7 +101,7 @@ h3 {
 }
 
 .address-link:hover,
-.address-mail-link:focus {
+.address-link:focus {
   color: #404bbf;
 }
 
@@ -127,8 +127,6 @@ h3 {
   font-weight: 500;
   line-height: 1.5;
   color: #fff;
-  border-radius: 4px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
 }
 
@@ -136,6 +134,7 @@ h3 {
 .order-btn:focus {
   background-color: #404bbf;
 }
+
 /* #endregion Hero style */
 
 /* #region Advantages style */
@@ -162,9 +161,9 @@ h3 {
 }
 
 .team-menu {
-  background-color: #ffffff;
 }
 .team-menu-item {
+  background-color: #ffffff;
 }
 .team-img {
 }
