@@ -91,7 +91,6 @@ h3 {
 .container-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .nav {
@@ -150,6 +149,7 @@ h3 {
 }
 
 .address-menu-item {
+  padding: 24px 0;
 }
 
 .address-link {
