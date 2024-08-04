@@ -126,12 +126,14 @@ h3 {
 }
 
 .nav-menu-item {
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-menu-item-link {
   font-weight: 500;
   color: #2e2f42;
+  display: block;
 }
 
 .nav-menu-item-link:hover,
