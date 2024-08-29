@@ -91,6 +91,8 @@ h3 {
 /* #region Header style */
 
 .header {
+  padding-top: 16px;
+  padding-bottom: 16px;
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
@@ -129,7 +131,8 @@ h3 {
 }
 
 .nav-menu {
-  display: flex;
+  display: none;
+  /* display: flex; */
   gap: 40px;
 }
 
@@ -174,7 +177,8 @@ h3 {
 }
 
 .address-menu {
-  display: flex;
+  display: none;
+  /* display: flex; */
   gap: 40px;
 }
 
