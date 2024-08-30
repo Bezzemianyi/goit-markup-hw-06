@@ -1144,8 +1144,14 @@ h3 {
   /* #region Header style */
   .header {
   }
+  .container-header {
+    /* height: 0; */
+  }
   .logo {
     margin-right: 76px;
+  }
+  .address {
+    height: 24px;
   }
   .address-menu {
     display: flex;
@@ -1157,8 +1163,8 @@ h3 {
     letter-spacing: 0.02em;
   }
   .address-menu-item {
-    padding: 0;
-    height: 0;
+    /*padding: 0; */
+    height: 24px;
     margin: 0;
   }
   /* #endregion Header style */
