@@ -130,7 +130,7 @@ h3 {
 }
 
 .header-menu-btn {
-  background-color: #fff;
+  background-color: transparent;
   padding: 0;
   height: 24px;
 }
@@ -200,6 +200,76 @@ h3 {
 }
 
 /* #endregion Header style */
+
+/* #region Mob-Menu style */
+.mob-menu {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 999;
+  padding: 72px 16px 40px 16px;
+}
+.mob-menu-close-btn {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob-menu-close-btn:hover,
+.mob-menu-close-btn:focus {
+  background-color: #404bbf;
+  border: none;
+  fill: #fff;
+}
+
+.mob-menu-close-svg-icons {
+}
+.mob-menu-nav {
+}
+.mob-menu-nav-menu {
+}
+.mob-menu-nav-menu-item {
+}
+.mob-menu-nav-menu-item-link {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: #2e2f42;
+}
+.mob-menu-nav-menu-item:first-child {
+  color: #404bbf;
+}
+.mob-menu-address {
+}
+.mob-menu-address-menu {
+}
+.mob-menu-address-menu-item {
+}
+.mob-menu-address-link {
+}
+.mob-menu-icons-menu {
+}
+.mob-menu-icons-menu-item {
+}
+.mob-menu-icons-link {
+}
+.mob-menu-svg-icons {
+}
+/* #endregion Mob-Menu style */
 
 /* #region Main style */
 
@@ -664,9 +734,9 @@ h3 {
   background-color: #fcfcfc;
   top: 50%;
   left: 50%;
-  width: 408px;
+  width: 288px;
   min-height: 584px;
-  padding: 72px 24px 24px 24px;
+  padding: 72px 16px 24px 16px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -818,6 +888,7 @@ h3 {
 .modal-privacy-policy-link {
   color: #4d5ae5;
   text-decoration: underline;
+  margin-left: 20px;
 }
 
 .modal-privacy-policy-span {
@@ -1014,6 +1085,18 @@ h3 {
     letter-spacing: 0.04em;
   }
   /* #endregion Header style */
+
+  /* #region Overlay style */
+
+  .modal {
+    width: 408px;
+    padding: 72px 24px 24px 24px;
+  }
+  .modal-privacy-policy-link {
+    margin-left: 0;
+  }
+
+  /* #endregion Overlay style */
 }
 
 @media screen and (min-width: 1158px) {
